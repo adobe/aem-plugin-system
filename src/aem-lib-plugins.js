@@ -12,6 +12,7 @@ import {
   toCamelCase,
   toClassName,
 } from '/scripts/lib-franklin.js';
+// TODO we should support both 'lib-franklin.js' and the new name 'aem.js'
 
 export function init() {
   // eslint-disable-next-line no-use-before-define

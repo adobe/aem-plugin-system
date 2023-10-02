@@ -2,17 +2,31 @@
 Add on for AEM Edge Delivery Services, which introduces a plugin system.
 
 ## Usage
+TODO: add information about the configuration
 
 ## Installation
+###### SSH
 
+```bash
+git subtree add --squash --prefix plugins/system git@github.com:chicharr/aem-lib-plugin-system.git main
+```
 
-## Tests
+###### HTTPS
 
+```bash
+git subtree add --squash --prefix plugins/system git@github.com:chicharr/aem-lib-plugin-system.git main
+```
 
-## Local development
+You can then later update it from the source again via:
 
-1. Create a new repository based on the `helix-project-boilerplate` template and add a mountpoint in the `fstab.yaml`
-1. Add the [helix-bot](https://github.com/apps/helix-bot) to the repository
-1. Install the [Helix CLI](https://github.com/adobe/helix-cli): `npm install -g @adobe/helix-cli`
-1. Start Helix Pages Proxy: `hlx up` (opens your browser at `http://localhost:3000`)
-1. Open the `{repo}` directory in your favorite IDE and start coding :)
+###### SSH
+
+```bash
+git subtree pull --squash --prefix plugins/system git@github.com:chicharr/aem-lib-plugin-system.git main
+```
+
+###### HTTPS
+
+```bash
+git subtree pull --squash --prefix plugins/system git@github.com:chicharr/aem-lib-plugin-system.git main
+```
