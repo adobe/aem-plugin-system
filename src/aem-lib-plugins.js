@@ -11,6 +11,7 @@ import {
   sampleRUM,
   toCamelCase,
   toClassName,
+  getPlaceholderOrDefault,
 } from '/scripts/lib-franklin.js';
 // TODO we should support both 'lib-franklin.js' and the new name 'aem.js'
 
@@ -72,6 +73,7 @@ export const executionContext = {
   sampleRUM,
   toCamelCase,
   toClassName,
+  getPlaceholderOrDefault,
 };
 
 /**
