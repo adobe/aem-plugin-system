@@ -11,7 +11,7 @@ import {
   sampleRUM,
   toCamelCase,
   toClassName,
-} from '@adobe/aem-lib/dist/aem.js';
+} from '/scripts/lib-franklin.js';
 
 export function init() {
   // eslint-disable-next-line no-use-before-define
